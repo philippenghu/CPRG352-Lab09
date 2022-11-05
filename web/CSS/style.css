@@ -1,0 +1,113 @@
+@media all {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        max-width: 500px;
+        padding: 20px;
+        margin: auto;
+        background-color: antiquewhite;
+    }
+
+    h1{
+         text-align: center;
+        font-size: 275%;
+        background-color: black;
+        
+        border-radius: 7px;
+        color: white;
+    }
+    h2 {
+        text-align: center;
+        font-size: 225%;
+        background-color: rgba(230, 173, 17, 0.836);
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    tr{
+        background-color:  darkgray;
+        color: white;
+              text-align: center;
+    }
+    
+    th{
+        background-color:  black;
+        color: white
+    }
+    table {
+        padding: 10px;
+        border: 2px solid black;
+        margin: auto;
+        
+    }
+    select{
+        margin-top: 3px;
+        padding: 5px;
+        width: 200px;
+    }
+
+    input[type="text"],
+    input[type="email"]
+    {
+        margin-top: 3px;
+        padding: 5px;
+        width: 200px;
+    }
+
+    div {
+        border: 3px solid black;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    #email {
+        width: 200px;
+        padding: 5px;
+    }
+
+
+
+
+
+    input[type="submit"] {
+        position: relative;     
+        width: 70px;
+        height: 30px;
+        font-weight: bolder;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        margin: auto
+    }
+
+    p{
+        background-color: whitesmoke;
+        border: 2px black;
+        color:red;
+        font-size: larger;
+        font-weight: bold;
+
+    }
+
+    input[type="submit"]:hover {
+        width: 70px;
+        height: 30px;
+        font-weight: bolder;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: grey;
+        color: white;
+    }
+
+    input[type="submit"]:active {
+        background-color: #242424;
+        box-shadow: 0 4px #666;
+        transform: translateY(3px);
+
+    }
+
+
+
+
+
+
+}
